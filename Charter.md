@@ -1,4 +1,4 @@
-The ZTCPP Working Group will define interoperable protocols and frameworks that support:
+The ZTCPP(Zero Trust Control and Policy Protocol) Working Group will define interoperable protocols and frameworks that support:
 - Authenticated-before-connect access to protected resources
 - Dynamic trust and context signaling
 - Zero Trust control-plane communication
