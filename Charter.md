@@ -8,9 +8,9 @@ The ZTCPP(Zero Trust Control and Policy Protocol) Working Group will define inte
 ## Scope of Work:
 The WG will produce specifications and guidance for Zero Trust protocol interoperability,
 including authenticated-before-connect mechanisms, in-network policy enforcement considerations and control-plane requirements. 
-The WG will define the zero trust principles for which interopreability is to be developed, and define new mechanisms only when gaps are identified.
-- For 5G/6G network scenarios: Adapt to typical scenarios; develop interoperability specifications for Zero Trust protocols in operator networks; and address trust verification and policy scheduling issues brought by multi-domain security requrments in operator networks.
-- For AI agent scenarios: Focused on AI agent communication security, defining authentication, authorization, and identity assurance mechanisms for AI agent-to-agent, AI agent-to-network, and AI agent-to-service communication. It will map security gaps in AI agent communication flows and develop Trust-based protocol interfaces and interaction rules to protect confidentiality, integrity, and auditability of AI agent communication.
+The WG will reuse existing IETF protocols where possible and define new mechanisms only when gaps are identified.
+- For 5G/6G network scenarios: Adapt to typical scenarios; develop interoperability specifications for protocol based on Zero Trust principles in operator networks; and address trust verification and policy scheduling issues brought by multi-domain security requrments in operator networks.
+- For AI agent scenarios: Based on Zero Trust principles, research security requirements for AI agents scenarios.
 
 ## Out of Scope:
 - Redefinition of Zero Trust principles or architectures
