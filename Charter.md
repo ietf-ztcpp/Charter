@@ -8,7 +8,7 @@ The ZTCPP(Zero Trust Control and Policy Protocol) Working Group will define inte
 ## Scope of Work:
 The WG will produce specifications and guidance for Zero Trust protocol interoperability,
 including authenticated-before-connect mechanisms, in-network policy enforcement considerations and control-plane requirements. 
-The WG will reuse existing IETF protocols where possible and define new mechanisms only when gaps are identified.
+The WG will define the zero trust principles for which interopreability is to be developed and define new mechanisms only when gaps are identified.
 - For 5G/6G network scenarios: Adapt to typical scenarios; develop interoperability specifications for protocol based on Zero Trust principles in operator networks; and address trust verification and policy scheduling issues brought by multi-domain security requrments in operator networks.
 - For AI agent scenarios: Based on Zero Trust principles, research security requirements for AI agents scenarios.
 
@@ -24,13 +24,13 @@ The WG will reuse existing IETF protocols where possible and define new mechanis
 - Application aligned Zero Trust considerations (Informational/BCP)
 - Zero Trust protocol interoperability framework (Informational)
 - Authenticated-before-connect mechanisms (Standards Track)
-- Control-plane and policy protocol(Standards Track)
+- Control and policy plane protocol(Standards Track)
 
 ## Milestones:
 - Adopt Problem Statements and Gap Analysis/Network-infrastructure aligned Zero Trust considerations drafts.(6 months)
 - Adopt framework and requirements drafts(12 months)
 - Adopt authenticated-before-connect draft(18 months)
-- Adopt control-plane and policy protocol draft(18 months)
+- Adopt control and policy plane protocol draft(18 months)
 - Publish above WG documents as RFCs(24 months)
 - Publish deployment and interoperability guidance(24 months)
 - Re-Charter or Close the WG
