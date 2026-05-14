@@ -13,7 +13,7 @@ ZTCPP will focus on the following interoperable framework and protocols that sup
 ## Required Details
 - Status: "WG forming"
 - Responsible AD: Deb Cooley, Christopher Inacio 
-- BOF proponents: Aijun Wang <wangaj3@chinatelecom.cn>, Philip Griffiths <philipleonardgriffiths@gmail.com>,Benfeng Chen <benfeng@gmail.com>,Erik Johnson <ejohnson@cloudsecurityalliance.org> 
+- BOF proponents: Aijun Wang <wangaj3@chinatelecom.cn>, Philip Griffiths <philipleonardgriffiths@gmail.com>,Benfeng Chen <benfeng@gmail.com>,Erik Johnson <ejohnson@cloudsecurityalliance.org>, Xuansi <six1@chinatelecom.cn> 
 - Number of people expected to attend: 100
 - Length of session (1 or usually 2 hours): 2 hours
 - Conflicts (whole Areas and/or WGs)
