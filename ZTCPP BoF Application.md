@@ -34,8 +34,8 @@ To allow evaluation of your proposal, please include the following items:
    The control and policy protocols among the entities that are defined by NIST SP 800-207.
 
 - Open source projects (if any) implementing this work: <br>
-   OpenNHP: https://github.com/anAtheist987/OpenGateway](https://github.com/openNHP/opennhp/ <br>
-   NetFoundry: <br>
+   OpenNHP: https://github.com/anAtheist987/OpenGateway](https://github.com/openNHP/opennhp/(focus on authenticated-before-connect and resource hiding) <br>
+   OpenZiti: https://github.com/openziti (identity-first connectivity fabric providing authenticated-before-connect access, service-based policy, and end-to-end binding of identity and policy to application sessions across heterogeneous environments) <br>
    
 
 ## Agenda
@@ -46,6 +46,11 @@ To allow evaluation of your proposal, please include the following items:
      </ol>
 
    - Protocol Gap Analysis for Zero Trust Control and Policy Interoperability(20 minutes)
+     <ol type="1">
+     Draft: TBD <br>
+     </ol>
+
+   - A Framework for Zero Trust Control and Policy Interoperability (15 minutes)
      <ol type="1">
      Draft: TBD <br>
      </ol>
@@ -77,6 +82,7 @@ To allow evaluation of your proposal, please include the following items:
       - Solutions
         <ol type="1">
         <li> Protocol Gap Analysis for Zero Trust Control and Policy Interoperability(Draft: TBD)</li>
+        <li> A Framework for Zero Trust Control and Policy Interoperability (Draft: TBD) </li>
         <li> Network-Infrastructure Hiding Protocol(https://datatracker.ietf.org/doc/draft-opennhp-ztcpp-nhp/)</li> 
         
         </ol>
