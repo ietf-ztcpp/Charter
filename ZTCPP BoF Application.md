@@ -1,14 +1,16 @@
-# Name: Zero Trust Control and Policy Protocol)(ZTCPP)
+# Name: Zero Trust Control and Policy Protocols (ZTCPP)
 ## Description 
 Existing Zero Trust architectures define policy and access control models, but do not fully standardize interoperable, cryptographically sound mechanisms for enforcing authorization prior to connection establishment while minimizing exposure of protected resources. Current secure connectivity approaches often require coordination across infrastructure components (e.g., routing, NAT, firewalls), governance processes, and distributed enforcement systems. This operational complexity arises in part from the absence of interoperable mechanisms to express identity- and service-based policy intent and bind that intent directly to communication sessions, resulting in inconsistent enforcement and reduced agility across deployments.<br>
 
 This gap becomes increasingly important in environments where automated discovery and exploitation techniques (including those driven by AI) rapidly target exposed network infrastructure. Interoperable policy distribution alone is not sufficient; consistent Zero Trust outcomes require that policy intent be enforced with fidelity at runtime, including service-level least-privilege semantics.<br>
 
 ZTCPP will focus on the following interoperable framework and protocols that support: <br>
--Authenticated-before-connect access to protected resources <br>
--Dynamic assurance (confidence levels) and context signaling <br>
--Zero Trust control-plane communication and policy lifecycle management <br>
--Mechanisms to bind policy decisions to concrete sessions, flows, or channels with verifiable enforcement outcomes <br>
+- Authenticated-before-connect access to protected resources <br>
+- Dynamic assurance (confidence levels) and context signaling <br>
+- Zero Trust control-plane communication and policy lifecycle management <br>
+- Mechanisms to bind policy decisions to concrete sessions, flows, or channels with verifiable enforcement outcomes <br>
+
+The work assumes both human and non-human identities (e.g., users, workloads, services, devices, and agents) and aims to interoperate with existing identity systems so that the resulting mechanisms can be applied consistently across heterogeneous environments and deployment models.<br>
 
 ## Required Details
 - Status: "WG forming"
@@ -25,17 +27,18 @@ ZTCPP will focus on the following interoperable framework and protocols that sup
 To allow evaluation of your proposal, please include the following items:
 
 - Any protocols or practices that already exist in this space: <br>
-  NIST SP 800-207 defines the Zero Trust Architecture but lacks interoperable control and policy protocols to ensure interoperability among components from different vendors.
-  Several implementations already exist, yet the industry still needs standardized specifications to avoid vendor lock-in via proprietary protocols. <br>
+  NIST SP 800-207 defines the Zero Trust Architecture and principles, but it does not define interoperable control and policy protocol semantics for how those principles are realized across heterogeneous implementations. Several implementations already exist, yet the industry still needs standardized specifications to avoid vendor lock-in and to ensure interoperable exposure control, policy distribution, and runtime enforcement across components from different vendors. <br>
 
 - Which (if any) modifications to existing protocols or practices are required: TBD
    
 - Which (if any) entirely new protocols or practices are required: <br>
-   The control and policy protocols among the entities that are defined by NIST SP 800-207.
+   Interoperable control and policy protocols, including mechanisms for authenticated-before-connect access, policy lifecycle coordination across enforcement points, and binding policy intent to concrete sessions, flows, or channels with verifiable enforcement outcomes, as described by Zero Trust architectures such as NIST SP 800-207.
 
 - Open source projects (if any) implementing this work: <br>
-   OpenNHP: https://github.com/anAtheist987/OpenGateway](https://github.com/openNHP/opennhp/(focus on authenticated-before-connect and resource hiding) <br>
-   OpenZiti: https://github.com/openziti (identity-first connectivity fabric providing authenticated-before-connect access, service-based policy, and end-to-end binding of identity and policy to application sessions across heterogeneous environments) <br>
+   OpenNHP: https://github.com/openNHP/opennhp/ (focus on authenticated-before-connect and resource hiding) <br>
+   OpenZiti: https://github.com/openziti (identity-first connectivity fabric enabling authenticated-before-connect access, service-based policy, and end-to-end binding of identity and policy to application sessions across heterogeneous environments) <br>
+
+These projects exercise different aspects of Zero Trust architecture and help illustrate interoperability gaps across exposure control, policy distribution, and runtime enforcement.
    
 
 ## Agenda
@@ -53,11 +56,12 @@ To allow evaluation of your proposal, please include the following items:
    - A Framework for Zero Trust Control and Policy Interoperability (15 minutes)
      <ol type="1">
      Draft: TBD <br>
+     Purpose: Describe how interoperable mechanisms can address authenticated-before-connect access, policy lifecycle coordination, and binding policy intent to concrete sessions and flows with verifiable enforcement outcomes.
      </ol>
       
-   - Network-Infrastructure Hiding Protocol(15 minutes)
+   - Discussion of candidate protocol approaches and implementation models (15 min)
      <ol type="1">
-     Draft: https://datatracker.ietf.org/doc/draft-opennhp-ztcpp-nhp/ <br>
+     Example drafts / open source projects may be referenced here as illustrations, not as the assumed solution direction
      </ol>
       
    - ZTCPP Charter (20 minutes)
@@ -79,7 +83,7 @@ To allow evaluation of your proposal, please include the following items:
         <li> Consideration of Applying Zero Trust Philosophy in Network Infrastructure (https://datatracker.ietf.org/doc/html/draft-li-ztcpp-network-infra-consideration) </li> <br>
         </ol>
        
-      - Solutions
+      - Candidate approaches
         <ol type="1">
         <li> Protocol Gap Analysis for Zero Trust Control and Policy Interoperability(Draft: TBD)</li>
         <li> A Framework for Zero Trust Control and Policy Interoperability (Draft: TBD) </li>
