@@ -44,7 +44,7 @@ These projects exercise different aspects of Zero Trust architecture and help il
 ## Agenda
    - Use cases, scenarios and requirements(20 minutes)
      <ol type="1">
-     <li> Zero trust standards in IETF: Use cases and problem statement (https://datatracker.ietf.org/doc/draft-liu-saag-zt-problem-statement/) </li>  
+     <li> Zero trust standards in IETF: Use cases and problem statement (https://datatracker.ietf.org/doc/draft-liu-ztcpp-zt-problem-statement/) </li>  
      <li> Consideration of Applying Zero Trust Philosophy in Network Infrastructure (https://datatracker.ietf.org/doc/html/draft-li-ztcpp-network-infra-consideration) </li> <br>
      </ol>
 
@@ -79,7 +79,7 @@ These projects exercise different aspects of Zero Trust architecture and help il
    - Relevant Internet-Drafts:
       - Use Cases:
         <ol type="1">
-        <li> Zero trust standards in IETF: Use cases and problem statement (https://datatracker.ietf.org/doc/draft-liu-saag-zt-problem-statement/) </li>  
+        <li> Zero trust standards in IETF: Use cases and problem statement (https://datatracker.ietf.org/doc/draft-liu-ztcpp-zt-problem-statement/) </li>  
         <li> Consideration of Applying Zero Trust Philosophy in Network Infrastructure (https://datatracker.ietf.org/doc/html/draft-li-ztcpp-network-infra-consideration) </li> <br>
         </ol>
        
